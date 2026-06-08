@@ -1,4 +1,4 @@
-ViralGen AI - Multi-Modal Ad Generator
+# ViralGen AI - Multi-Modal Ad Generator
 An AI-powered Gradio web application that generates platform-specific ad variations, complete with high-quality images and tailored marketing copy.
 
 ViralGen AI takes a simple product description and automatically crafts targeted advertisements. It uses Stable Diffusion XL to generate imagery optimized for specific social media platforms and overlays dynamic ad copy tailored to your brand's tone.
@@ -30,7 +30,7 @@ pip install gradio huggingface_hub Pillow
 Open the Python script and replace the placeholder HF_TOKEN with your actual Hugging Face access token:
 
 Python
-# Replace "Your TOKEN" with your actual Hugging Face API key
+Replace "Your TOKEN" with your actual Hugging Face API key
 HF_TOKEN = "hf_your_actual_token_here" 
 4. Run the application
 Execute the script from your terminal:
